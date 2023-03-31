@@ -1,6 +1,6 @@
 <template>
   <nav class="ml-6">
-    <ul class="flex list-disc list-inside space-x-4">
+    <ul class="flex space-x-6">
       <li>
         <NavLink href="/" :active="$page.component === 'Home'" >Home</NavLink>
       </li>
@@ -16,7 +16,7 @@
           method="post"
           :data="{ foo: 'bar' }"
           as="button"
-          class="text-blue-500 hover:underline"
+          class="text-black hover:underline"
           >Log out</Link
         >
       </li>

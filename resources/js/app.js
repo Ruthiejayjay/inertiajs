@@ -16,6 +16,7 @@ createInertiaApp({
             .use(plugin)
             .mount(el)
     },
+    title: title => "My App - " + title
 })
 InertiaProgress.init({
     color: "red",
